@@ -89,7 +89,7 @@ public class StringAssignments
     private static void deleteDay()
     {
         String days="SUNDAYMONDAYTUESDAYWEDNESDAYTHURSDAYFRIDAYSATURDAY";
-        String delete=days.replace("DAY","");
+        String delete=days.replace("DAY"," ");
         System.out.println(delete);
     }
 }
